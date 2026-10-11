@@ -1,2 +1,4 @@
-date,time,bean,grind_setting,grind_s,dose_g,yield_g,shot_s,first_drops_s,surf_s,sour_bitter,body,overall,notes
-2026-10-08,,Supreme / Supreme,3.1,9.00,22,,,,,,,,baseline dose check only; no shot scored. 22 g is too much; reduce run time next.
+date,time,bean,grind_setting,grind_s,dose_g,yield_g,shot_s,first_drops_s,surf_s,notes
+2026-10-08,,Supreme / Supreme,3.1,9.00,22,,,,,baseline dose check only; no shot scored. 22 g is too much; reduce run time next.
+2026-10-09,,Supreme / Supreme,3.1,7.40,16,,,,,"dose check only; no shot. Undershot 18 g target; throughput not linear (fixed offset), try ~7.9 s."
+2026-10-12,,Supreme / Supreme,3.1,7.90,19,36,,,,first full shot; 1:1.9 ratio; tasted OK. Shot time not recorded.

@@ -45,10 +45,8 @@ Supreme (brand), Supreme (beans), whole beans.
 
 - **Shot time** (seconds from brew switch on to off at target yield).
 - **Flow rate** = yield / shot time (g/s).
-- **Taste**, scored per shot:
-  - sour_bitter: 1 (sour) to 5 (bitter), 3 is balanced
-  - body: 1 (thin, watery) to 5 (syrupy)
-  - overall: 1 to 10
+- **Taste**: not scored. A word or two in `notes` if anything stands out
+  (sour, bitter, watery, OK).
 - Optional: time to first drops, crema notes.
 
 ### Logged but not controlled
@@ -63,6 +61,8 @@ Do not suggest tracking these. The user has decided against them.
 - Roast date / days since roast.
 - Hopper fill level.
 - Holding grinder run time constant (it is the dose lever, see above).
+- Numeric taste scores (sour/bitter, body, overall). Taste goes in `notes` as
+  a word, if at all.
 
 ## Procedure
 
@@ -72,7 +72,7 @@ Do not suggest tracking these. The user has decided against them.
 3. Distribute and tamp the same way every time.
 4. Cup on scale, tare, start brew and a timer together.
 5. Stop at target yield. Record yield and shot time.
-6. Taste and score.
+6. Taste. Note sour / bitter / watery / OK if it is worth saying.
 7. Append a row to `shots.csv`.
 
 Dialling-in rules of thumb (grind is the only thing changed between shots
@@ -100,10 +100,7 @@ One row per grind or shot. Columns:
 | shot_s | brew time, seconds |
 | first_drops_s | optional |
 | surf_s | optional, seconds since heating light went off |
-| sour_bitter | 1 to 5 |
-| body | 1 to 5 |
-| overall | 1 to 10 |
-| notes | free text |
+| notes | free text, including any taste remark |
 
 Leave a cell blank if not measured. Ratio and flow rate are derived, not
 stored.
@@ -113,8 +110,14 @@ stored.
 - 2026-10-08: grind setting 3.1 (collar ring runs 0.0 to 10.0). At 3.1,
   9.00 s of grinder run time gave 22 g dose, ~2.4 g/s throughput. 22 g is high
   for a Silvia double basket.
-- Plan: hold grind at 3.1 and reduce run time until dose is 18 g. Starting
-  guess ~7.4 s. Re-check on the scale each time.
+- 2026-10-09: at 3.1, 7.40 s gave 16 g. Dose is not proportional to run time
+  (motor spin-up / retention offset): the two points fit ~3.75 g per extra
+  second, so 18 g ≈ 7.9 s.
+- 2026-10-12: at 3.1, 7.90 s gave 19 g. First full shot: 36 g out (1:1.9),
+  tasted OK. Shot time not recorded.
+- Plan: hold grind at 3.1 and run time at 7.9 s (19 g is close enough to
+  start). Record shot time on the next shot so the 25 to 32 s rule can be
+  applied. If the dose needs to come down to 18 g, try 7.65 s.
 
 ## How Claude should work on this repo
 
@@ -124,3 +127,5 @@ stored.
 - Respect the "explicitly NOT tracked" list. Do not relitigate it.
 - Keep everything in plain text files in this repo so it survives a machine
   change.
+- After any change to a file in this repo, commit and push straight away.
+  Do not ask first.
