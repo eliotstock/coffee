@@ -9,7 +9,8 @@ context needed to pick the project up on a new machine.
 - Grinder: Mazzer, electronic timed dosing (MENU / + / - buttons, run time in
   seconds shown on the display, portafilter fork). Stepless grind collar with a
   numbered ring from 0.0 to 10.0; record the number on the ring as the grind
-  setting.
+  setting. HIGHER number = FINER grind on this machine (the opposite of most
+  grinders). "Go finer" means turn the number up.
 - Machine: Rancilio Silvia. Single boiler, no PID, no pressure gauge, no
   volumetric stop. The brew switch is manual: the shot runs until it is
   switched off.
@@ -79,8 +80,8 @@ Do not suggest tracking these. The user has decided against them.
 Dialling-in rules of thumb (grind is the only thing changed between shots
 until time is in the window):
 
-- Shot time under ~20 s: grind finer.
-- Shot time over ~35 s: grind coarser.
+- Shot time under ~20 s: grind finer (higher number).
+- Shot time over ~35 s: grind coarser (lower number).
 - In the 25 to 32 s window: leave grind alone and start adjusting on taste.
   Sour → finer. Bitter → coarser.
 - Only once that is stable, experiment with ratio (1:1.5, 1:2, 1:2.5).
@@ -123,10 +124,13 @@ stored.
   about ±2 g around the fitted line. Timed dosing on a Mazzer is only good to
   roughly that; the scale adds ±1 g. Treat the run time as coarse and accept
   17 to 21 g for now; it is not what is making shots watery.
-- Plan: the grind is far too coarse for this basket. Stop adjusting run time
-  and go finer. Move the collar from 3.1 to about 2.5, then re-check dose on
-  the scale (finer grinds slower, so run time will need to go up). Target is
-  36 g in 25 to 32 s. If still under 20 s, go finer again in steps of ~0.3.
+- 2026-10-15: grind changed 3.1 -> 3.5 (finer). Run time still 7.85 s. No
+  dose or shot at 3.5 yet.
+- Plan: at 3.5, grind, weigh, and adjust run time to land near 18 to 19 g
+  (finer grinds slower, so expect to need more than 7.85 s). Pull 36 g and
+  time it. Target 25 to 32 s. If still under 20 s, go finer again in steps
+  of ~0.3 to 0.5 (i.e. 3.8 to 4.0). If it chokes or runs over 35 s, back
+  off to ~3.3.
 
 ## How Claude should work on this repo
 
