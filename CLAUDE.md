@@ -13,7 +13,8 @@ context needed to pick the project up on a new machine.
 - Machine: Rancilio Silvia. Single boiler, no PID, no pressure gauge, no
   volumetric stop. The brew switch is manual: the shot runs until it is
   switched off.
-- Scale with 0.1 g resolution for dose and yield.
+- Scale with 1 g resolution for dose and yield. Expect ±1 g noise on every
+  reading; do not chase dose differences of 1 to 2 g.
 - Coffee is always black. Milk is out of scope.
 
 ## Current bean
@@ -118,6 +119,10 @@ stored.
 - 2026-10-14: at 3.1, 7.90 s gave 20 g and 7.70 s gave 17 g (scale is 1 g
   resolution, so expect ±0.5 g noise). Both shots watery: 36 g out in ~10 s,
   i.e. ~3.6 g/s. That is 2 to 3 times too fast. Run time now set to 7.85 s.
+- 2026-10-15: at 3.1, 7.85 s gave 21 g. Six dose checks at 3.1 now scatter
+  about ±2 g around the fitted line. Timed dosing on a Mazzer is only good to
+  roughly that; the scale adds ±1 g. Treat the run time as coarse and accept
+  17 to 21 g for now; it is not what is making shots watery.
 - Plan: the grind is far too coarse for this basket. Stop adjusting run time
   and go finer. Move the collar from 3.1 to about 2.5, then re-check dose on
   the scale (finer grinds slower, so run time will need to go up). Target is
