@@ -115,9 +115,13 @@ stored.
   second, so 18 g ≈ 7.9 s.
 - 2026-10-12: at 3.1, 7.90 s gave 19 g. First full shot: 36 g out (1:1.9),
   tasted OK. Shot time not recorded.
-- Plan: hold grind at 3.1 and run time at 7.9 s (19 g is close enough to
-  start). Record shot time on the next shot so the 25 to 32 s rule can be
-  applied. If the dose needs to come down to 18 g, try 7.65 s.
+- 2026-10-14: at 3.1, 7.90 s gave 20 g and 7.70 s gave 17 g (scale is 1 g
+  resolution, so expect ±0.5 g noise). Both shots watery: 36 g out in ~10 s,
+  i.e. ~3.6 g/s. That is 2 to 3 times too fast. Run time now set to 7.85 s.
+- Plan: the grind is far too coarse for this basket. Stop adjusting run time
+  and go finer. Move the collar from 3.1 to about 2.5, then re-check dose on
+  the scale (finer grinds slower, so run time will need to go up). Target is
+  36 g in 25 to 32 s. If still under 20 s, go finer again in steps of ~0.3.
 
 ## How Claude should work on this repo
 

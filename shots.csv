@@ -2,3 +2,5 @@ date,time,bean,grind_setting,grind_s,dose_g,yield_g,shot_s,first_drops_s,surf_s,
 2026-10-08,,Supreme / Supreme,3.1,9.00,22,,,,,baseline dose check only; no shot scored. 22 g is too much; reduce run time next.
 2026-10-09,,Supreme / Supreme,3.1,7.40,16,,,,,"dose check only; no shot. Undershot 18 g target; throughput not linear (fixed offset), try ~7.9 s."
 2026-10-12,,Supreme / Supreme,3.1,7.90,19,36,,,,first full shot; 1:1.9 ratio; tasted OK. Shot time not recorded.
+2026-10-14,,Supreme / Supreme,3.1,7.90,20,36,10,,,"watery. Scale is 1 g resolution so dose may be 19.5. ~36 g in ~10 s: far too fast."
+2026-10-14,,Supreme / Supreme,3.1,7.70,17,36,10,,,"watery. Run time set to 7.85 s for next grind. ~36 g in ~10 s."
