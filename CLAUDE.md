@@ -126,11 +126,14 @@ stored.
   17 to 21 g for now; it is not what is making shots watery.
 - 2026-10-15: grind changed 3.1 -> 3.5 (finer). Run time still 7.85 s. No
   dose or shot at 3.5 yet.
-- Plan: at 3.5, grind, weigh, and adjust run time to land near 18 to 19 g
-  (finer grinds slower, so expect to need more than 7.85 s). Pull 36 g and
-  time it. Target 25 to 32 s. If still under 20 s, go finer again in steps
-  of ~0.3 to 0.5 (i.e. 3.8 to 4.0). If it chokes or runs over 35 s, back
-  off to ~3.3.
+- 2026-10-16: grind moved on to 4.0 (finer) with no shot at 3.5. At 4.0,
+  7.85 s gave 23 g. Throughput did not fall with the finer grind; if anything
+  it rose. Suggested run time for 18 g: ~6.5 s (slope ~3.6 g/s, i.e. 5 g less
+  is ~1.4 s less).
+- Plan: at 4.0, grind, weigh, and adjust run time to land near 18 to 19 g
+  (start at 6.5 s). Pull 36 g and time it. Target 25 to 32 s. If still
+  under 20 s, go finer again in steps of ~0.3 to 0.5 (i.e. 4.3 to 4.5). If
+  it chokes or runs over 35 s, back off to ~3.7.
 
 ## How Claude should work on this repo
 
