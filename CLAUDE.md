@@ -130,10 +130,17 @@ stored.
   7.85 s gave 23 g. Throughput did not fall with the finer grind; if anything
   it rose. Suggested run time for 18 g: ~6.5 s (slope ~3.6 g/s, i.e. 5 g less
   is ~1.4 s less).
-- Plan: at 4.0, grind, weigh, and adjust run time to land near 18 to 19 g
-  (start at 6.5 s). Pull 36 g and time it. Target 25 to 32 s. If still
-  under 20 s, go finer again in steps of ~0.3 to 0.5 (i.e. 4.3 to 4.5). If
-  it chokes or runs over 35 s, back off to ~3.7.
+- 2026-10-18: at 4.0, 6.50 s gave 19 g. Shot still watery. Shot time not
+  recorded. Moving 3.1 -> 4.0 made no visible difference to the shot or to
+  grinder throughput, so small collar steps are not doing enough.
+- Plan: take a big step finer, 4.0 -> 5.0, keeping run time at 6.5 s and
+  re-checking dose. Record the shot time this time; "watery" alone cannot
+  steer the grind. If 5.0 still runs under 20 s, go to 6.0. Also check two
+  things that would make grind changes ineffective: (a) the collar is
+  actually turning the burr carrier (grounds should visibly look and feel
+  finer, closer to flour than sand, and clump); (b) the basket is a plain
+  non-pressurised double (many small holes underneath, not one central
+  hole).
 
 ## How Claude should work on this repo
 

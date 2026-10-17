@@ -6,3 +6,4 @@ date,time,bean,grind_setting,grind_s,dose_g,yield_g,shot_s,first_drops_s,surf_s,
 2026-10-14,,Supreme / Supreme,3.1,7.70,17,36,10,,,"watery. Run time set to 7.85 s for next grind. ~36 g in ~10 s."
 2026-10-15,,Supreme / Supreme,3.1,7.85,21,,,,,"dose check only. 7.85 s gave 21 g vs 17 g at 7.70 s yesterday: dose vs run time is noisy, ±2 g."
 2026-10-16,,Supreme / Supreme,4.0,7.85,23,,,,,"dose check only. Grind moved 3.5 -> 4.0 (finer) without a shot at 3.5. 23 g at 7.85 s, more than at 3.1; throughput did not drop as expected."
+2026-10-18,,Supreme / Supreme,4.0,6.50,19,,,,,"watery. Yield and shot time not reported. First shot at 4.0; still watery after 3.1 -> 4.0 and dose brought to 19 g."
