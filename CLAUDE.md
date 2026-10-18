@@ -133,8 +133,10 @@ stored.
 - 2026-10-18: at 4.0, 6.50 s gave 19 g. Shot still watery. Shot time not
   recorded. Moving 3.1 -> 4.0 made no visible difference to the shot or to
   grinder throughput, so small collar steps are not doing enough.
-- Plan: take a big step finer, 4.0 -> 5.0, keeping run time at 6.5 s and
-  re-checking dose. Record the shot time this time; "watery" alone cannot
+- 2026-10-18: collar moved 4.0 -> 5.0. The collar has to be turned while
+  the motor runs, so the grind done during the change is a mix and is not
+  logged. First representative data at 5.0 comes from the next grind.
+- Plan: at 5.0, keep run time at 6.5 s and re-check dose. Record the shot time this time; "watery" alone cannot
   steer the grind. If 5.0 still runs under 20 s, go to 6.0. Also check two
   things that would make grind changes ineffective: (a) the collar is
   actually turning the burr carrier (grounds should visibly look and feel
