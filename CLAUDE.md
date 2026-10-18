@@ -136,7 +136,25 @@ stored.
 - 2026-10-18: collar moved 4.0 -> 5.0. The collar has to be turned while
   the motor runs, so the grind done during the change is a mix and is not
   logged. First representative data at 5.0 comes from the next grind.
-- Plan: at 5.0, keep run time at 6.5 s and re-check dose. Record the shot time this time; "watery" alone cannot
+- 2026-10-19: at 5.0, 6.50 s gave 21 g, scooped out to 18 g. Shot: 40 g in
+  10 s (4 g/s). Identical to 3.1 and 4.0. Grinder throughput at a given run
+  time has also not fallen across 3.1 -> 4.0 -> 5.0. Conclusion: the collar
+  moves we have made are not changing the grind enough to matter, or
+  something else is bypassing the puck. Stop blind stepping and diagnose.
+- Plan, in order:
+  1. Basket check: turn the double basket over. Many small holes across the
+     bottom = unpressurised, fine. One central hole = pressurised; swap it
+     for a plain basket before anything else.
+  2. Find the burr zero point ("chirp"): close the hopper gate, run the
+     grinder empty of beans, and with the motor running turn the collar
+     finer (number up) slowly until the burrs just start to touch and
+     chirp. Back off immediately. Note that number as the zero. Espresso
+     normally sits about 0.5 to 1.5 numbers coarser than zero. If the chirp
+     is at, say, 8, then 5.0 is far too coarse and the right starting point
+     is about 7.
+  3. Set the collar there, purge a second or two of grounds, re-establish
+     the run time for 18 g, pull 36 g and time it.
+- Old plan (superseded): at 5.0, keep run time at 6.5 s and re-check dose. Record the shot time this time; "watery" alone cannot
   steer the grind. If 5.0 still runs under 20 s, go to 6.0. Also check two
   things that would make grind changes ineffective: (a) the collar is
   actually turning the burr carrier (grounds should visibly look and feel
