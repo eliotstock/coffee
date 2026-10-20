@@ -154,6 +154,16 @@ stored.
      is about 7.
   3. Set the collar there, purge a second or two of grounds, re-establish
      the run time for 18 g, pull 36 g and time it.
+- 2026-10-21: grinder stopped grinding. Motor hums for the run time but the
+  burrs do not turn. Collar now very stiff; turning it coarser did not help.
+  Run time had been set to 5.4 s. Most likely the burrs are jammed (closed
+  onto packed grounds after the finer moves / chirp attempt). Second
+  suspect is the motor start/run capacitor, a common Mazzer failure. Do not
+  run the motor while it hums; a stalled motor overheats.
+- Plan: unplug, strip and clean the burr chamber (see grinder-recovery
+  notes in README or chat), reassemble, find zero with the motor running
+  and empty, then resume dialling in from about one number coarser than
+  zero. Dialling-in data from before the strip-down may not carry over.
 - Old plan (superseded): at 5.0, keep run time at 6.5 s and re-check dose. Record the shot time this time; "watery" alone cannot
   steer the grind. If 5.0 still runs under 20 s, go to 6.0. Also check two
   things that would make grind changes ineffective: (a) the collar is
