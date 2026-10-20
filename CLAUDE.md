@@ -107,6 +107,36 @@ One row per grind or shot. Columns:
 Leave a cell blank if not measured. Ratio and flow rate are derived, not
 stored.
 
+## Grinder maintenance (Mazzer Mini Electronic B)
+
+The Mini has no collar lock pin. The chrome adjustment collar is held from
+turning a full circle by one small limiter screw on top of the collar.
+Thread is reversed: clockwise = coarser = lower numbers = off.
+
+Clearing a jam / cleaning the burr chamber:
+
+1. Unplug. Close the hopper gate, remove the hopper (its safety screws may
+   need to come out of the upper burr carrier), empty the beans.
+2. Remove the limiter screw from the collar. Keep it safe.
+3. Turn the collar clockwise. It unscrews and lifts off with the upper burr
+   carrier after several turns. If it binds, put a tamper in the throat and
+   press down on the upper carrier to take the load off the thread while
+   turning. Do not force or lever it.
+4. Brush and vacuum both burrs, the chamber, and both sets of threads.
+5. Still unplugged, turn the lower burr by hand. Free = the jam was the
+   problem. Will not turn with nothing in the way = motor or bearing
+   fault, take it to a technician.
+6. Reassemble: mark where the thread engages, start the collar anticlockwise
+   without forcing, screw in until it stops gently, back off a full turn,
+   refit the limiter screw and hopper.
+7. Plug in, run empty, turn finer slowly until the burrs chirp, back off.
+   That number is zero. Start espresso about one number coarser.
+8. Only ever adjust the collar with the motor running. Never turn it finer
+   while stopped with beans in the chamber: that is how it jammed.
+
+If the lower burr spins freely by hand but the motor still only hums, the
+motor capacitor has failed (common Mazzer fault, cheap part, mains wiring).
+
 ## Current state
 
 - 2026-10-08: grind setting 3.1 (collar ring runs 0.0 to 10.0). At 3.1,
@@ -160,8 +190,8 @@ stored.
   onto packed grounds after the finer moves / chirp attempt). Second
   suspect is the motor start/run capacitor, a common Mazzer failure. Do not
   run the motor while it hums; a stalled motor overheats.
-- Plan: unplug, strip and clean the burr chamber (see grinder-recovery
-  notes in README or chat), reassemble, find zero with the motor running
+- Plan: unplug, strip and clean the burr chamber (see Grinder maintenance
+  section above), reassemble, find zero with the motor running
   and empty, then resume dialling in from about one number coarser than
   zero. Dialling-in data from before the strip-down may not carry over.
 - Old plan (superseded): at 5.0, keep run time at 6.5 s and re-check dose. Record the shot time this time; "watery" alone cannot
