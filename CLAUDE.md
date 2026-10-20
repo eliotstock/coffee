@@ -142,6 +142,12 @@ Clearing a jam / cleaning the burr chamber:
 If the lower burr spins freely by hand but the motor still only hums, the
 motor capacitor has failed (common Mazzer fault, cheap part, mains wiring).
 
+Routine cadence for home use (a few shots a day):
+
+- Every few weeks: hopper off, wipe out the oil film, brush the chute.
+- Every 2 to 3 months: full strip and clean as above, then re-find zero.
+- Signs it is overdue: stiff collar, more clumping, rancid note in the cup.
+
 ## Current state
 
 - 2026-10-08: grind setting 3.1 (collar ring runs 0.0 to 10.0). At 3.1,
