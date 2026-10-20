@@ -9,8 +9,12 @@ context needed to pick the project up on a new machine.
 - Grinder: Mazzer, electronic timed dosing (MENU / + / - buttons, run time in
   seconds shown on the display, portafilter fork). Stepless grind collar with a
   numbered ring from 0.0 to 10.0; record the number on the ring as the grind
-  setting. HIGHER number = FINER grind on this machine (the opposite of most
-  grinders). "Go finer" means turn the number up.
+  setting. LOWER number = FINER grind. The circles engraved on the collar
+  grow larger towards the higher numbers, which is the intended cue. Burrs
+  touch (chirp) at 1.2; that is the true zero. Espresso range is expected
+  roughly 1.7 to 3.0. (Earlier notes assumed the opposite direction; that
+  mistake is why the 2026-10-14 to 10-19 grind changes did nothing and why
+  the grinder jammed.)
 - Machine: Rancilio Silvia. Single boiler, no PID, no pressure gauge, no
   volumetric stop. The brew switch is manual: the shot runs until it is
   switched off.
@@ -80,8 +84,8 @@ Do not suggest tracking these. The user has decided against them.
 Dialling-in rules of thumb (grind is the only thing changed between shots
 until time is in the window):
 
-- Shot time under ~20 s: grind finer (higher number).
-- Shot time over ~35 s: grind coarser (lower number).
+- Shot time under ~20 s: grind finer (lower number, towards 1.2).
+- Shot time over ~35 s: grind coarser (higher number).
 - In the 25 to 32 s window: leave grind alone and start adjusting on taste.
   Sour → finer. Bitter → coarser.
 - Only once that is stable, experiment with ratio (1:1.5, 1:2, 1:2.5).
@@ -111,7 +115,7 @@ stored.
 
 The Mini has no collar lock pin. The chrome adjustment collar is held from
 turning a full circle by one small limiter screw on top of the collar.
-Thread is reversed: clockwise = coarser = lower numbers = off.
+Thread is reversed: clockwise = coarser = higher numbers = off.
 
 Clearing a jam / cleaning the burr chamber:
 
@@ -133,6 +137,7 @@ Clearing a jam / cleaning the burr chamber:
    That number is zero. Start espresso about one number coarser.
 8. Only ever adjust the collar with the motor running. Never turn it finer
    while stopped with beans in the chamber: that is how it jammed.
+9. Zero (chirp) measured 2026-10-21 after reassembly: 1.2.
 
 If the lower burr spins freely by hand but the motor still only hums, the
 motor capacitor has failed (common Mazzer fault, cheap part, mains wiring).
@@ -194,7 +199,15 @@ motor capacitor has failed (common Mazzer fault, cheap part, mains wiring).
   section above), reassemble, find zero with the motor running
   and empty, then resume dialling in from about one number coarser than
   zero. Dialling-in data from before the strip-down may not carry over.
-- Old plan (superseded): at 5.0, keep run time at 6.5 s and re-check dose. Record the shot time this time; "watery" alone cannot
+- 2026-10-21: grinder stripped, cleaned, reassembled, running again. Lower
+  burr turned freely once the chamber was cleared, so the capacitor is fine.
+  Chirp found at 1.2. Direction corrected: lower number = finer. The 3.1 ->
+  4.0 -> 5.0 moves were all going COARSER, which explains the unchanged 10 s
+  shots. All shot data before this date is at coarse, non-espresso settings.
+- Plan: restart at 3.0 with 6.5 s run time. Weigh the dose (expect it to
+  differ from the pre-strip-down numbers), pull 36 g, time it. Then apply
+  the rules of thumb: under 20 s go finer (lower), e.g. 3.0 -> 2.5 -> 2.2.
+  Adjust only with the motor running. Record the shot time this time; "watery" alone cannot
   steer the grind. If 5.0 still runs under 20 s, go to 6.0. Also check two
   things that would make grind changes ineffective: (a) the collar is
   actually turning the burr carrier (grounds should visibly look and feel
