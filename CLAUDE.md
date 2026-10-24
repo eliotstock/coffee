@@ -220,6 +220,11 @@ Routine cadence for home use (a few shots a day):
   finer, closer to flour than sand, and clump); (b) the basket is a plain
   non-pressurised double (many small holes underneath, not one central
   hole).
+- 2026-10-25: grind 2.3, run time 8.75 s. Shot time 30.6 s, tasted good.
+  First shot inside the 25 to 32 s window. Dose and yield not recorded.
+  Throughput did fall at the finer setting, as expected (8.75 s needed vs
+  6.5 s before). Plan: hold 2.3 and 8.75 s, weigh dose and yield every shot
+  to confirm ~18 g in / 36 g out, then tune on taste only.
 
 ## How Claude should work on this repo
 
