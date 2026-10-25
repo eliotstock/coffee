@@ -233,6 +233,14 @@ Routine cadence for home use (a few shots a day):
   flow from the group head. If not, fill tank and prime via the steam wand.
   (2) If water flows, it was a choke: knock out and inspect the puck, then
   go coarser 2.3 -> 2.6 at the same 18 g and re-time.
+- 2026-10-26: grind 2.6, 9.5 s ground 16 g, topped up to 18 g. Over 60 s
+  to 36 g. So water was reaching the group and 10-26's dead shot was a
+  choke. Likely explanation for the "good" 30.6 s at 2.3: 8.75 s at 2.3
+  probably gave well under 18 g (throughput at 2.6 is only ~1.7 g/s), so
+  that shot was underdosed, not dialled in. Plan: grind 2.6 -> 2.9, run
+  time ~10.5 s (throughput rises as grind gets coarser, so re-weigh).
+  Prefer adjusting run time over hand top-ups; topped-up grounds sit loose
+  on top and can clump. Accept 17 to 19 g.
 
 ## How Claude should work on this repo
 
