@@ -225,6 +225,14 @@ Routine cadence for home use (a few shots a day):
   Run time is up from 6.5 s, but with no dose weighed it is unknown
   whether that gives ~18 g at 2.3. Plan: hold 2.3 and 8.75 s, weigh dose and yield every shot
   to confirm ~18 g in / 36 g out, then tune on taste only.
+- 2026-10-26: grind 2.3, dose topped up by hand to 18 g. No coffee at all
+  after 20 s of brew. Previous shot at the same grind ran 30.6 s, so either
+  the puck choked (dose now higher than on 10-25, which was not weighed, or
+  hand-added grounds clumped) or no water is reaching the group (tank empty,
+  pump lost prime). Plan: (1) portafilter out, brew switch on: water should
+  flow from the group head. If not, fill tank and prime via the steam wand.
+  (2) If water flows, it was a choke: knock out and inspect the puck, then
+  go coarser 2.3 -> 2.6 at the same 18 g and re-time.
 
 ## How Claude should work on this repo
 
