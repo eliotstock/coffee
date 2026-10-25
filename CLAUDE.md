@@ -238,7 +238,7 @@ Routine cadence for home use (a few shots a day):
   choke. Likely explanation for the "good" 30.6 s at 2.3: 8.75 s at 2.3
   probably gave well under 18 g (throughput at 2.6 is only ~1.7 g/s), so
   that shot was underdosed, not dialled in. Plan: grind 2.6 -> 2.9, run
-  time ~10.5 s (throughput rises as grind gets coarser, so re-weigh).
+  time ~10 s (throughput rises as grind gets coarser, so re-weigh).
   Prefer adjusting run time over hand top-ups; topped-up grounds sit loose
   on top and can clump. Accept 17 to 19 g.
 
