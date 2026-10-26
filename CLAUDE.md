@@ -241,6 +241,11 @@ Routine cadence for home use (a few shots a day):
   time ~10 s (throughput rises as grind gets coarser, so re-weigh).
   Prefer adjusting run time over hand top-ups; topped-up grounds sit loose
   on top and can clump. Accept 17 to 19 g.
+- 2026-10-27: grind 2.9. 10 s ground short of target; about 1 s more
+  needed (~11 s). Shot ~26 s, inside the 25 to 32 s window. Dose and
+  yield not confirmed. Plan: hold grind 2.9, set run time 11 s, weigh
+  dose and yield, and from here change grind only on taste (sour ->
+  finer, bitter -> coarser, 0.1 to 0.2 steps).
 
 ## How Claude should work on this repo
 
