@@ -257,6 +257,14 @@ Routine cadence for home use (a few shots a day):
   it. If still over 35 s, go to 3.5. Levelling off is fine (it removes
   from the top, unlike a hand top-up); the loose-grounds concern only
   applies to adding.
+- 2026-10-28: grind 3.2, 11 s ground 20 g, levelled off to 18 g. Shot
+  16.4 s (yield assumed 36 g). Same 18 g dose ran over 60 s at 2.9, so
+  0.3 on the collar took the shot from >60 s to 16 s. The collar is very
+  sensitive in this range: the 25 to 32 s window is somewhere between
+  2.9 and 3.2, and 0.1 steps are the right size now. Run time 11 s gives
+  20 g at both 2.9 and 3.2, so it is stable; levelling to 18 g is fine.
+  Plan: grind 3.2 -> 3.0, run time 11 s, level to 18 g, 36 g out, time
+  it. If under 20 s go to 2.95; if over 35 s go to 3.1.
 
 ## How Claude should work on this repo
 
