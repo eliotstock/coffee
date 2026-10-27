@@ -246,6 +246,17 @@ Routine cadence for home use (a few shots a day):
   yield not confirmed. Plan: hold grind 2.9, set run time 11 s, weigh
   dose and yield, and from here change grind only on taste (sour ->
   finer, bitter -> coarser, 0.1 to 0.2 steps).
+- 2026-10-28: grind 2.9, 11 s ground 20 g, levelled off to 18 g. Over
+  60 s to 36 g. So the ~26 s shot on 10-27 at the same grind was almost
+  certainly underdosed (10 s gave "short", probably 15 to 16 g). Pattern
+  so far: at a real 18 g, 2.3 chokes, 2.6 and 2.9 both run over 60 s.
+  Shot time is very sensitive to dose, so the dose must be weighed on
+  every shot before any grind conclusion is drawn. Plan: hold run time
+  11 s (it gives ~20 g at 2.9; expect a bit more at 3.2, so re-weigh and
+  trim to ~10.5 s if needed). Grind 2.9 -> 3.2 at 18 g, pull 36 g, time
+  it. If still over 35 s, go to 3.5. Levelling off is fine (it removes
+  from the top, unlike a hand top-up); the loose-grounds concern only
+  applies to adding.
 
 ## How Claude should work on this repo
 
