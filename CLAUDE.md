@@ -265,22 +265,16 @@ Routine cadence for home use (a few shots a day):
   20 g at both 2.9 and 3.2, so it is stable; levelling to 18 g is fine.
   Plan: grind 3.2 -> 3.0, run time 11 s, level to 18 g, 36 g out, time
   it. If under 20 s go to 2.95; if over 35 s go to 3.1.
-- 2026-10-29: grind 3.0, 11 s ground ~24 g (20 g at both 2.9 and 3.2
-  the day before), levelled off 6 g to 18 g. Shot 13.5 s, faster than
-  the 16.4 s at the coarser 3.2. That does not fit: finer should be
-  slower. So shot time at the moment is being set by something other
-  than the collar. Suspects, in order: (a) levelling 6 g off a heaped
-  basket disturbs the bed and the puck channels (fast, uneven); (b) the
-  24 g may include grounds dislodged by the collar move, so the grind
-  itself may not be representative; (c) collar direction: confirm the
-  number on the ring actually went down from 3.2 to 3.0. Also 2.9 ->
-  >60 s, 3.2 -> 16 s, 3.0 -> 13.5 s is far too much scatter for 0.3 of
-  collar; expect puck prep to be a large part of it. Plan: do NOT change
-  grind. Hold 3.0, cut run time to ~9.5 s so the dose lands near 18 g
-  with little or no levelling, purge a second of grounds first, weigh,
-  pull 36 g, time it. Look at the spent puck: holes or wet spots =
-  channelling. Only compare shots whose dose landed without heavy
-  levelling.
+- 2026-10-29: grind still 3.2 (the planned move to 3.0 was not made).
+  11 s ground ~24 g (20 g the day before), levelled off 6 g to 18 g.
+  Shot 13.5 s. Agrees with the 16.4 s at 3.2 the day before, so two
+  shots at 3.2 / 18 g both run 13 to 16 s: 3.2 is too coarse. The
+  picture is consistent again: 2.9 -> over 60 s, 3.2 -> ~15 s, window
+  in between. Timed dosing scattered 20 to 24 g at the same 11 s, so
+  heavy levelling is now routine; prefer a shorter run time so the dose
+  lands near 18 g without scraping much off. Plan: grind 3.2 -> 3.0
+  (finer, motor running), run time 10 s, weigh, level to 18 g, 36 g
+  out, time it. If under 20 s go to 2.95; if over 35 s go to 3.1.
 
 ## How Claude should work on this repo
 
