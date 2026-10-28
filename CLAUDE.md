@@ -275,6 +275,15 @@ Routine cadence for home use (a few shots a day):
   lands near 18 g without scraping much off. Plan: grind 3.2 -> 3.0
   (finer, motor running), run time 10 s, weigh, level to 18 g, 36 g
   out, time it. If under 20 s go to 2.95; if over 35 s go to 3.1.
+- 2026-10-29: collar moved 3.2 -> 3.0 while grinding this dose, so the
+  grounds were a mix of 3.2 and 3.0. 10 s ground 20 g, levelled to
+  18 g. Shot 17 s. Treat as not representative of 3.0 (same rule as the
+  4.0 -> 5.0 move on 10-18). Run time 10 s still gave 20 g, so dose per
+  second has crept up from the 11 s = 20 g of 10-28; timed dosing drifts
+  and the scale is the arbiter. Plan: hold 3.0, run time 9.5 s, weigh,
+  level to 18 g, 36 g out, time it. This is the first clean reading at
+  3.0. If under 20 s go to 2.95; if over 35 s go to 3.1. In future, after
+  a collar move, purge a second or two of grounds before the dose.
 
 ## How Claude should work on this repo
 
