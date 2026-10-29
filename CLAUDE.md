@@ -284,6 +284,14 @@ Routine cadence for home use (a few shots a day):
   level to 18 g, 36 g out, time it. This is the first clean reading at
   3.0. If under 20 s go to 2.95; if over 35 s go to 3.1. In future, after
   a collar move, purge a second or two of grounds before the dose.
+- 2026-10-30: grind 3.0, 9.5 s ground 19 g, not levelled. Shot 29.5 s
+  to 36 g. First clean reading at 3.0 and it is in the 25 to 32 s
+  window at a weighed dose. Baseline is now: grind 3.0, run time 9.5 s,
+  18 to 19 g in, 36 g out, ~30 s. Plan: hold everything. Weigh every
+  dose and pull a couple more shots to confirm it repeats (the timed
+  dose has scattered 19 to 24 g, so expect some shot-time spread). Then
+  adjust on taste only: sour -> 2.9, bitter -> 3.1. Only once that is
+  stable, try ratio (1:1.5, 1:2.5).
 
 ## How Claude should work on this repo
 
