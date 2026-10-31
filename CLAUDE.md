@@ -306,6 +306,16 @@ Routine cadence for home use (a few shots a day):
   dosing scatter. Plan: run time 9.0 -> 8.5 s, grind stays 3.0, weigh,
   36 g out, time it. If 8.5 s gives 17 g, settle on 9.0 s and level
   off the extra gram instead.
+- 2026-11-01: grind 3.0, 8.85 s ground only 17 g. Shot 16 s to 36 g
+  (yield assumed). At the same grind, 19 g ran 26 and 29.5 s, so about
+  2 g of dose moved the shot by ~10 s. Dose is now the biggest source
+  of shot-time noise, and timed dosing alone cannot hold it: 9.0 s gave
+  19 g and 8.85 s gave 17 g. This is not a grind signal; grind stays
+  3.0. Plan: stop trimming run time to hit the dose. Set 9.5 s (reliably
+  19 to 20 g), level off by weight to exactly 18 g every shot, 36 g out,
+  time it. 18 g also fixes the portafilter fit. 18 g at 3.0 has no clean
+  reading yet (the 17 s shot on 10-29 was a mixed grind). If it runs
+  under 22 s, go to 2.95 (not 2.9: 2.9 at 18 g ran over 60 s).
 
 ## How Claude should work on this repo
 
