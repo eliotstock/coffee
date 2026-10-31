@@ -299,6 +299,13 @@ Routine cadence for home use (a few shots a day):
   run a little faster than 29.5 s; expect mid to high 20s, still in the
   window. If it drops under 25 s, that is the dose change, not the grind:
   note it and consider 2.95 before anything else.
+- 2026-11-01: grind 3.0, 9.0 s still ground 19 g. Shot 26 s to 36 g
+  (yield assumed). Second in-window shot at 3.0 / 19 g (29.5 s on
+  10-30), so 3.0 repeats; a 3 to 4 s spread at the same dose is normal.
+  Half a second less did not move the dose, which is within the timed
+  dosing scatter. Plan: run time 9.0 -> 8.5 s, grind stays 3.0, weigh,
+  36 g out, time it. If 8.5 s gives 17 g, settle on 9.0 s and level
+  off the extra gram instead.
 
 ## How Claude should work on this repo
 
