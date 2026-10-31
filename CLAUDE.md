@@ -292,6 +292,13 @@ Routine cadence for home use (a few shots a day):
   dose has scattered 19 to 24 g, so expect some shot-time spread). Then
   adjust on taste only: sour -> 2.9, bitter -> 3.1. Only once that is
   stable, try ratio (1:1.5, 1:2.5).
+- 2026-11-01: 9.5 s at 3.0 is giving 19 g consistently, and 19 g is too
+  full to lock the portafilter in without levelling. At 3.0 the two
+  points (10 s = 20 g, 9.5 s = 19 g) give ~2 g/s, so run time 9.5 s ->
+  9.0 s for ~18 g. Grind stays at 3.0. A gram less in the basket will
+  run a little faster than 29.5 s; expect mid to high 20s, still in the
+  window. If it drops under 25 s, that is the dose change, not the grind:
+  note it and consider 2.95 before anything else.
 
 ## How Claude should work on this repo
 
