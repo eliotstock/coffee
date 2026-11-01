@@ -316,6 +316,16 @@ Routine cadence for home use (a few shots a day):
   time it. 18 g also fixes the portafilter fit. 18 g at 3.0 has no clean
   reading yet (the 17 s shot on 10-29 was a mixed grind). If it runs
   under 22 s, go to 2.95 (not 2.9: 2.9 at 18 g ran over 60 s).
+- 2026-11-02: grind 3.0, run time 8.95 s (not the planned 9.5 s). Scale
+  read 14 g. Shot under 10 s, not timed. User suspects the scale. But
+  the shot time fits a genuinely low dose (17 g ran 16 s, 19 g ran 26 to
+  29.5 s), so the grinder may really have delivered less. Plan: (1) check
+  the scale against known weights (UK coins: 1p 3.56 g, 2p 7.12 g, £1
+  8.75 g; ten 2p = 71 g), weigh the same thing several times and after
+  re-taring, and replace the battery if readings wander. (2) If the scale
+  is good, the grinder is the variable part: 9.5 s, level to a weighed
+  18 g, as planned on 11-01. Also look at the spent puck: a thin, soupy
+  puck with lots of headspace confirms a low dose.
 
 ## How Claude should work on this repo
 
