@@ -76,7 +76,10 @@ Do not suggest tracking these. The user has decided against them.
 2. Set grind setting. Set grinder run time. Grind into the portafilter, weigh,
    record dose. If dose is off target, change run time and note it.
 3. Distribute and tamp the same way every time.
-4. Cup on scale, tare, start brew and a timer together.
+4. Cup on scale, tare, start brew and a timer together. The scale must sit
+   flat with all four feet supported; if a foot hangs off the drip tray
+   the reading is wrong (this invalidated every yield and shot time
+   before 2026-11-03).
 5. Stop at target yield. Record yield and shot time.
 6. Taste. Note sour / bitter / watery / OK if it is worth saying.
 7. Append a row to `shots.csv`.
@@ -326,6 +329,20 @@ Routine cadence for home use (a few shots a day):
   is good, the grinder is the variable part: 9.5 s, level to a weighed
   18 g, as planned on 11-01. Also look at the spent puck: a thin, soupy
   puck with lots of headspace confirms a low dose.
+- 2026-11-03: FOUND THE SCALE FAULT. When under the cup on the drip
+  tray, the scale had not been sitting on all four feet, so yield
+  readings were off. Every yield and shot time before today is invalid
+  (cleared in `shots.csv`, original values kept in the notes). Dose
+  readings were taken off the machine and stand, as does the 10-26 "no
+  flow at all" at 2.3 (seen by eye). With the scale properly supported:
+  grind 3.0, 8.8 s ground 19 g, 36 g in 9 s. So 3.0 is far too coarse,
+  and the "in window" shots at 3.0 were really yielding much more than
+  36 g; that, not the grind, is the likely root of the watery shots
+  from the start. Known bounds now: 2.3 chokes, 3.0 runs 9 s. Plan:
+  grind 3.0 -> 2.8 (motor running, purge a second or two), 8.8 s,
+  weigh, level to 18 to 19 g, 36 g out on the supported scale, time it.
+  Rules of thumb apply from here: under 20 s go finer in 0.1 to 0.2
+  steps; over 35 s go coarser.
 
 ## How Claude should work on this repo
 
