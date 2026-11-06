@@ -37,9 +37,12 @@ Supreme (brand), Supreme (beans), whole beans.
    is NOT held constant. Throughput changes with grind setting (finer grinds
    slower), so after any grind change the run time needs re-checking against
    the scale.
-3. **Yield** (grams in the cup). The shot is stopped on weight, with the cup
-   on the scale, not on time and not by eye. This is the fix for the watery
-   problem: on a Silvia nothing stops the shot for you.
+3. **Shot time** (seconds the brew switch is on). Since 2026-11-07 the shot
+   is run for a fixed time and then switched off; the cup is weighed
+   afterwards. The scale cannot be used under the cup in the machine (it
+   does not sit flat on the drip tray and reads wrong), so stopping on
+   weight is not possible. Standard shot time: 25 s. Hold it fixed while
+   dialling in grind.
 
 ### Derived from the above
 
@@ -49,8 +52,9 @@ Supreme (brand), Supreme (beans), whole beans.
 
 ### Measured: how we judge the shot
 
-- **Shot time** (seconds from brew switch on to off at target yield).
-- **Flow rate** = yield / shot time (g/s).
+- **Yield** (grams in the cup), weighed off the machine after the shot.
+- **Flow rate** = yield / shot time (g/s). Compares shots of different
+  lengths; 36 g in 25 to 32 s is about 1.1 to 1.4 g/s.
 - **Taste**: not scored. A word or two in `notes` if anything stands out
   (sour, bitter, watery, OK).
 - Optional: time to first drops, crema notes.
@@ -76,22 +80,25 @@ Do not suggest tracking these. The user has decided against them.
 2. Set grind setting. Set grinder run time. Grind into the portafilter, weigh,
    record dose. If dose is off target, change run time and note it.
 3. Distribute and tamp the same way every time.
-4. Cup on scale, tare, start brew and a timer together. The scale must sit
-   flat with all four feet supported; if a foot hangs off the drip tray
-   the reading is wrong (this invalidated every yield and shot time
-   before 2026-11-03).
-5. Stop at target yield. Record yield and shot time.
+4. Tare the empty cup on the scale on a flat surface (all four feet
+   supported). Put the cup under the portafilter. Start brew and a timer
+   together.
+5. Switch off at the fixed shot time (25 s). Weigh the cup off the
+   machine. Record shot time and yield.
 6. Taste. Note sour / bitter / watery / OK if it is worth saying.
 7. Append a row to `shots.csv`.
 
-Dialling-in rules of thumb (grind is the only thing changed between shots
-until time is in the window):
+Dialling-in rules of thumb, fixed 25 s shot, ~18 g dose (grind is the only
+thing changed between shots until yield is in the window). These are the
+old time rules (36 g in 20 to 35 s) converted to yield at 25 s:
 
-- Shot time under ~20 s: grind finer (lower number, towards 1.2).
-- Shot time over ~35 s: grind coarser (higher number).
-- In the 25 to 32 s window: leave grind alone and start adjusting on taste.
+- Yield over ~45 g (flow over ~1.8 g/s): grind finer (lower number,
+  towards 1.2).
+- Yield under ~26 g (flow under ~1 g/s): grind coarser (higher number).
+- Yield 32 to 40 g: in the window. Leave grind alone and adjust on taste.
   Sour → finer. Bitter → coarser.
-- Only once that is stable, experiment with ratio (1:1.5, 1:2, 1:2.5).
+- Only once that is stable, experiment with ratio by changing the fixed
+  shot time (shorter = lower ratio).
 
 ## Log: shots.csv
 
@@ -343,6 +350,16 @@ Routine cadence for home use (a few shots a day):
   weigh, level to 18 to 19 g, 36 g out on the supported scale, time it.
   Rules of thumb apply from here: under 20 s go finer in 0.1 to 0.2
   steps; over 35 s go coarser.
+
+- 2026-11-07: new method from today: fixed shot time, cup weighed after
+  (scale cannot be used under the cup). Grind 2.4, 11.25 s ground 17 g,
+  not topped up. Shot 25.5 s gave 52 g (1:3.1, 2.0 g/s). Too fast: at
+  1.3 g/s it would be ~33 g. Known bounds: 2.3 choked on 10-26 (18 g,
+  hand topped up, so possibly a clumped or overfull puck), 2.4 runs
+  2 g/s. Plan: grind 2.4 -> 2.35 (half step because of the 2.3 choke;
+  motor running, purge), run time 11.75 s (finer grinds slower; aim 17
+  to 18 g, level if over), shot fixed at 25 s, weigh yield. 32 to 40 g
+  = window. Still over 45 g -> 2.3.
 
 ## How Claude should work on this repo
 
