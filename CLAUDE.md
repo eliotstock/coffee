@@ -360,6 +360,15 @@ Routine cadence for home use (a few shots a day):
   motor running, purge), run time 11.75 s (finer grinds slower; aim 17
   to 18 g, level if over), shot fixed at 25 s, weigh yield. 32 to 40 g
   = window. Still over 45 g -> 2.3.
+- 2026-11-08: grind 2.35, 11.75 s ground 14 g by the scale (user doubts
+  it), topped up by hand to 18 g. 25 s gave 37 g (1:2.1, 1.5 g/s).
+  Tasted good. First valid in-window shot under the new method. Baseline
+  now: grind 2.35, 18 g, 25 s, ~37 g. Plan: hold grind and shot time.
+  Run time 11.75 -> 14 s so the grinder delivers 18 g without a top-up
+  (hand top-ups sit loose on top and may have caused the 2.3 choke);
+  level off if over. Repeat to confirm, then tune on taste only: sour ->
+  2.3, bitter -> 2.4. If dose readings keep looking wrong, check the
+  scale against coins (see 11-02).
 
 ## How Claude should work on this repo
 
