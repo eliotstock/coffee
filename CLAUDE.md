@@ -369,6 +369,11 @@ Routine cadence for home use (a few shots a day):
   level off if over. Repeat to confirm, then tune on taste only: sour ->
   2.3, bitter -> 2.4. If dose readings keep looking wrong, check the
   scale against coins (see 11-02).
+- 2026-11-08: grind 2.35, 13.5 s ground 17 g, no top-up. 25 s gave 44 g
+  (1:2.6, 1.8 g/s). 1 g less dose than the 18 g / 37 g shot, so faster,
+  as expected; not a grind signal. At 2.35, 11.75 s = 14 g and 13.5 s =
+  17 g, ~1.7 g per extra second, so 18 g ~ 14.1 s. Plan: run time 14.25
+  s, level to 18 g if over, grind 2.35, 25 s, weigh. Expect ~37 g again.
 
 ## How Claude should work on this repo
 
