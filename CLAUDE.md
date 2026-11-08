@@ -77,8 +77,9 @@ Do not suggest tracking these. The user has decided against them.
 ## Procedure
 
 1. Warm the machine with the portafilter locked in.
-2. Set grind setting. Set grinder run time. Grind into the portafilter, weigh,
-   record dose. If dose is off target, change run time and note it.
+2. Set grind setting. Set grinder run time. Grind into the portafilter, weigh
+   BEFORE tamping, and scoop off any excess to the target dose. Record dose.
+   If dose is short, change run time and note it.
 3. Distribute and tamp the same way every time.
 4. Tare the empty cup on the scale on a flat surface (all four feet
    supported). Put the cup under the portafilter. Start brew and a timer
@@ -374,6 +375,13 @@ Routine cadence for home use (a few shots a day):
   as expected; not a grind signal. At 2.35, 11.75 s = 14 g and 13.5 s =
   17 g, ~1.7 g per extra second, so 18 g ~ 14.1 s. Plan: run time 14.25
   s, level to 18 g if over, grind 2.35, 25 s, weigh. Expect ~37 g again.
+- 2026-11-09: grind 2.35, 14.25 s ground ~20 g; already tamped, so not
+  levelled. 25 s gave a very low yield, not weighed. Fits the dose
+  sensitivity (17 g -> 44 g, 18 g -> 37 g, 20 g -> very low); not a grind
+  signal. Timed dosing at 2.35 scatters too much to land on 18 g by run
+  time alone (13.5 s = 17 g, 14.25 s = 20 g). Plan: keep 14.25 s so it
+  always overshoots, weigh BEFORE tamping, scoop off to 18 g, tamp. Grind
+  2.35, 25 s, weigh the cup.
 
 ## How Claude should work on this repo
 
