@@ -382,6 +382,15 @@ Routine cadence for home use (a few shots a day):
   time alone (13.5 s = 17 g, 14.25 s = 20 g). Plan: keep 14.25 s so it
   always overshoots, weigh BEFORE tamping, scoop off to 18 g, tamp. Grind
   2.35, 25 s, weigh the cup.
+- 2026-11-10: grind 2.35, 14.25 s ground 17 g (20 g last time at the
+  same run time), not topped up. 25 s gave 35 g (1:2.1). Tasted good.
+  Second good in-window shot at 2.35 (with 11-08: 18 g -> 37 g). Same
+  17 g dose gave 44 g on 11-08, so yield spreads ~±4 g shot to shot;
+  judge grind on a couple of shots, not one. Grind 2.35 / 25 s is the
+  setting. Plan: hold grind and shot time. Run time 14.25 -> 14.75 s so
+  the dose never comes in short (14.25 s gave 17 to 20 g), weigh before
+  tamping, scoop to 18 g. Then tune on taste only: sour -> 2.3, bitter
+  -> 2.4. After a few stable shots, try ratio via shot time.
 
 ## How Claude should work on this repo
 
