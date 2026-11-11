@@ -391,6 +391,30 @@ Routine cadence for home use (a few shots a day):
   the dose never comes in short (14.25 s gave 17 to 20 g), weigh before
   tamping, scoop to 18 g. Then tune on taste only: sour -> 2.3, bitter
   -> 2.4. After a few stable shots, try ratio via shot time.
+- 2026-11-12: grind and run time not stated (assumed 2.35 / 14.75 s).
+  19 g choked (almost nothing in 60 s). 18 g gave 40 g in 50 s
+  (0.8 g/s, so ~20 g at 25 s). Including earlier shots, at 2.35 we have
+  17 g -> 35 to 44 g, 18 g -> 37 g or ~20 g, 19 to 20 g -> choke. 2.35
+  is on a knife edge: a 1 g dose change swings the shot from good to
+  choked, and neither the grinder nor the 1 g scale can hold the dose
+  that tightly. User goal: a fixed grind setting, run time and shot time
+  that work without weighing every coffee. Ordering a 0.1 g scale (see
+  below) for dialling in only.
+- Plan: (1) Dose by volume, not weight: set run time so the basket
+  always overfills (keep 14.75 s), then strike the grounds off level
+  with the basket rim using a straight edge (back of a knife or a card),
+  without pressing. Then tamp as usual. The basket volume becomes the
+  dose, which removes the grinder's ±2 g scatter. (2) Grind 2.35 -> 2.4
+  (motor running, purge a second or two). A level basket is probably
+  around 18 to 19 g, which chokes at 2.35. (3) Shot fixed at 25 s, weigh
+  the cup. 32 to 40 g = done, that is the recipe. Over 45 g -> 2.37.
+  Under 26 g -> 2.45. Once a recipe holds for three shots, stop weighing
+  except as an occasional check, or when the bean changes.
+- Scale to buy (0.1 g, 2 kg, tares the 750 g portafilter, platform
+  diagonal 170 mm or more): Timemore Black Mirror Basic 2 (about 152 x
+  130 mm, ~200 mm diagonal), NZ$99.99 at Gift Tree NZ. Basic 3 is smaller
+  (140 x 120 mm, ~184 mm). Brewista Smart Scale II (~127 x 107 mm, ~166 mm)
+  is too small.
 
 ## How Claude should work on this repo
 
